@@ -1,3 +1,13 @@
+# Hybrid Flow (OpenID Connect)
+This client uses the Hybrid Flow as default to login the user.
+After login (user: david password: 123) an access_token and an id_token are stored in the localstorage.
+
+# Resource Owner Password Client Flow (OAuth2)
+This flow can be follow by going to the http://localhost:4200/login.
+It will ask for an access_token to the IdentityServer endpoint (connect/token)
+
+
+
 # VidaTemplate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
