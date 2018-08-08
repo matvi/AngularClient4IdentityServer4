@@ -1,0 +1,148 @@
+.header-shadow {
+    -webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    background-color: #283593;
+}
+
+.vidanta-star {
+    height: 58px;
+    text-align: center;
+    color: #fff;
+    background-color: #283593;
+}
+
+.example-fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.avatar-wrapper {
+    position: relative;
+}
+
+.avatar {
+    width: 2.5rem;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: #0275d8;
+}
+
+.toolbar_font {
+    margin-right: 1.2rem!important;
+    margin-left: 1.2rem!important;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.toolbar_expand_icon {
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+.menu-button {
+    margin-left: 30px;
+}
+
+/* Sidenav ***********************************************************/
+
+.app-inner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: calc(100vh - 56px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.mat-drawer-container {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    overflow: hidden;
+}
+
+.my-1 {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+}
+
+.sidenav-container {
+    overflow: hidden;
+    width: 14.6rem;
+    min-width: 14.6rem;
+    padding-top: 10px;
+}
+
+.sidenav-shadow {
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+.sidenav-menu-item {
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 42px;
+    color: #46483e;
+}
+
+.sidenav-menu-item span {
+    margin-left: 20px
+}
+
+.logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 16px;
+    margin-bottom: 14px;
+}
+
+.logo .logo-icon {
+    display: block;
+    background: #039be5;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.logo .logo-text {
+    margin-left: 16px;
+    font-size: 1rem;
+}

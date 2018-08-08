@@ -1,0 +1,30 @@
+<div>
+  <mat-toolbar color="primary" class="header-shadow text-grey-300">
+    <div>
+      <img class="" src="">
+    </div>
+    <!--<div [ngClass]="(screenWidth > 840) ? 'menu-button' : ''">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>-->
+    <span class="example-fill-remaining-space">Success Log in</span>
+    <div class="avatar-wrapper">
+      <img class="avatar" src="assets/images/profile.jpg">
+    </div>
+    <div fxShow="true" fxHide.lt-md="true">
+      <span class="toolbar_font">bienvenido Marco</span>
+    </div><!---->
+    <button mat-icon-button [matMenuTriggerFor]="menu"><mat-icon class="toolbar_expand_icon">more_vert</mat-icon></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="logOut()">
+        <mat-icon>vpn_key</mat-icon>
+        <span>logout</span>
+      </button>
+    </mat-menu>
+  </mat-toolbar>
+
+  <mat-sidenav-container class="app-inner mat-drawer-container">
+    <router-outlet></router-outlet>
+  </mat-sidenav-container>
+</div>
